@@ -3,7 +3,8 @@
     margin: 0;
     padding: 0;
 }
-.section-title{
+
+.section-title {
     text-align: center;
     font-size: 35px;
     font-weight: 700;
@@ -70,7 +71,8 @@ header {
     background-repeat: no-repeat;
     background-position: bottom right;
 }
-.banner-text{
+
+.banner-text {
     max-width: 550px;
 }
 
@@ -87,7 +89,8 @@ header {
     font-weight: 700;
     margin-top: 5px;
 }
-.banner-text > p{
+
+.banner-text>p {
     margin: 20px 0;
 }
 
@@ -98,16 +101,64 @@ header {
 }
 
 /* main section styles */
+main {
+    max-width: 850px;
+    margin: auto;
+}
 
 /* about section styles */
-.about{
+.about {
     border-radius: 10px;
-    background: #FFF8F3;
-    padding: 80px 110px;
-    margin: 100px 200px;
+    background-color: #FFF8F3;
+    padding: 50px 70px;
+    margin-top: 100px;
 }
-.section-description{
-    margin: 30px ;
+
+.section-description {
     line-height: 2rem;
     text-align: justify;
 }
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.about-info {
+    text-align: center;
+}
+
+/* what i do section start */
+.what-i-do {
+    margin-top: 100px;
+}
+
+.what-i-do-description {
+    padding: 30px 200px 50px;
+    text-align: center;
+}
+
+/* skills section start */
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.skill {
+    margin: 5px;
+    padding: 15px;
+    /* border: 1px solid rgb(216, 216, 216); */
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgb(150, 150, 150);
+    background-color: #FFF;
+}
+.skill>h4 {
+    margin: 20px 0px 15px;
+}
+.skill > p{
+    text-align: justify;
+}
+
+/* my resume section start */

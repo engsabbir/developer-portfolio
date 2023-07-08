@@ -109,4 +109,5 @@ header {
 .section-description{
     margin: 30px ;
     line-height: 2rem;
+    text-align: justify;
 }

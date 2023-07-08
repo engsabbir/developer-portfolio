@@ -94,7 +94,7 @@ header {
 .banner-profile img {
     width: 484px;
     height: 576px;
-    margin-bottom: 0px;
+    margin-bottom: -5px;
 }
 
 /* main section styles */

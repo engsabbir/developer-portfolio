@@ -231,6 +231,9 @@ footer {
     margin-bottom: 10px;
 }
 
+.social-link img{
+    margin-right: 24px;
+}
 
 .footer-column input, textarea{
     width: 100%;
